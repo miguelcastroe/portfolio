@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: #87CEEB;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.navbar .logo {
+  font-weight: bold;
+}
+
+.navbar nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar nav ul li a {
+  color: white;
+  text-transform: uppercase;
+}
+
+.navbar .time-info {
+  font-size: 12px;
+}
+
+/* Hero Section Styles */
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.hero-content {
+  position: relative;
+}
+
+.hero-image {
+  width: 400px;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.overlay-text h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+.overlay-text p {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+/* View Button */
+.view-button {
+  position: absolute;
+  right: 50px;
+  bottom: 100px;
+}
+
+.view-button a {
+  padding: 15px 30px;
+  border: 2px solid white;
+  border-radius: 50px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transform: rotate(-15deg);
+}
+
+/* Footer Navigation */
+footer {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+}
+
+footer .page-number {
+  font-size: 1.5rem;
+}
